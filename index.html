@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <title>Cafeteria</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- google font -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Kreon:300,400,700'>
+    
+    <!-- js -->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="120" >
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header visible-xs">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><h2>Cafeteria</h2></a>
+            </div><!-- navbar-header -->
+        <div id="navbar" class="navbar-collapse collapse">
+            <div class="hidden-xs" id="logo"><a href="#header">
+                <img src="img/logo.png" alt="">
+            </a></div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#reservation">Reservacion</a></li>
+                <li><a href="#chefs">Nuestros Chefs</a></li>
+                
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#special-offser">Ofertas Especiales</a></li>
+                
+                <!--fix for scroll spy active menu element-->
+                <li style="display:none;"><a href="#header"></a></li>
+
+            </ul>
+        </div><!--/.navbar-collapse -->
+        </div><!-- container -->
+    </div><!-- menu -->
+
+    <div id="header">
+        <div class="bg-overlay"></div>
+        <div class="center text-center">
+            <div class="banner">
+                <h1 class="">Cafeteria</h1>
+            </div>
+            <div class="subtitle"><h4>IMPRESIONANTE LUGAR PARA DIRFRUTAR</h4></div>
+        </div>
+        <div class="bottom text-center">
+            <a id="scrollDownArrow" href="#"><i class="fa fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <!-- /#header -->
+
+    <div id="story" class="light-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner">
+            <h2 class="section-title text-center">Nuestra Historia</h2>
+            <p class="lead main text-center">Compartiendo nuestras delicias desde 1879</p>
+            <div class="row text-center story">
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper"> <i class="fa fa-anchor"></i> </div>
+                        <h3>EST. 1879</h3>
+                        <p>
+                            Seguiendo los deseos de Don Ector, quien lo empezo todo hemos concervado y mejorado
+                            dia con dia aquel lugar para conpartir un buen momento quien deses, concervando la
+                            dedicacion en todo lo que servimos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper"> <i class="fa  fa-cutlery"></i> </div>
+                        <h3>Tradiciones culinarias</h3>
+                        <p>
+                            La gran mayoria de las bebidas son echas con tecnicas tradicionales mejorandolos de
+                            forma ecepcional, mejorando la calidad de cada bebida, por supesto manteniendo gran
+                            eficacia. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper"> <i class="fa fa-coffee"></i> </div>
+                        <h3>Calidad de los Alimentos</h3>
+                        <p>
+                            Todos los ingredientes son manejados por seleccion de calidad gracias a 
+                            agricultores locales. Tambien nos enorgullesemos por la calificacion de grado A
+                            que se nos a dado por el control de salubridad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.services --> 
+        </div>
+        <!-- /.container -->
+        <section class="ss-style-bottom"></section>
+    </div><!-- #story -->
+
+
+
+    <div id="food-menu" class="light-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner">
+            <h2 class="section-title text-center">Menu</h2>
+            <p class="lead main text-center">¡NO HAY AMOR MÁS SINCERO QUE EL AMOR A LA COMIDA!</p>
+
+                        <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/hot-drinks.png" alt="Hot Drinks"></div>
+                    <div class="menu-titles"><h1 class="">Bebidas Calientes</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Expreso</li>
+                            <li>Americano</li>
+                            <li>Cappuccino</li>
+                            <li>Late</li>
+                            <li>Moca</li>
+                            <li>Chocolate Caliente</li>
+                            <li>Café Yummie</li>
+                            <li>Té de Frutas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/ice-drinks.png" alt="Ice Drinks"></div>
+                    <div class="menu-titles"><h1 class="">Bebidas Heladas</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Café helado</li>
+                            <li>Americano</li>
+                            <li>Latte</li>
+                            <li>Frappé Vanilla</li>
+                            <li>Frappé Expreso</li>
+                            <li>Frappé de Chocolate</li>
+                            <li>Chai Helado</li>
+                            <li>Fruta Fresca</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/smoothies.png" alt="Smoothies"></div>
+                    <div class="menu-titles"><h1 class="">Batidos</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Mango</li>
+                            <li>Fresa</li>
+                            <li>Arandanos</li>
+                            <li>Melocotón</li>
+                            <li>Piña</li>
+                            <li>Plátano</li>
+                            <li>Batido</li>
+                            <li>Verduras</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="menu-images "><img src="img/menu/deserts.png" alt="Deserts"></div>
+                    <div class="menu-titles"><h1 class="">Postres</h1></div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li>Cheesecake</li>
+                            <li>Pie de Chocolate</li>
+                            <li>HotCake</li>
+                            <li>Mofins</li>
+                            <li>Rodajas de Fruit</li>
+                            <li>Ensalada de Fruit</li>
+                            <li>Pastel de crema</li>
+                            <li>Helado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- /.container -->
+        <section class="ss-style-bottom"></section>
+    </div><!--/#food-menu-->
+
+
+
+
+    <div id="special-offser" class="parallax pricing">
+        <div class="container inner">
+
+            <h2 class="section-title text-center">Ofertas Especiales</h2>
+            <p class="lead main text-center">¡NO HAY AMOR MÁS SINCERO QUE EL AMOR A LA COMIDA!</p>
+            
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    
+                    <div class="pricing-item">
+                        
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/tar-manza.jpeg" alt=""></a>
+                        
+                        <div class="pricing-item-details">
+                            
+                            <h3><a href="#">Tarta de Manzanas</a></h3>
+                            
+                            <p>Una mezcla de manzanas, canela y masa crujiente.</p>
+                            <p>Este postre es un clásico reconfortante y perfecto para cualquier ocasión</p>
+                            
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-red">$26</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    
+                    <div class="pricing-item">
+                        
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/Churros.jpeg" alt=""></a>
+                        
+                        <div class="pricing-item-details">
+                            
+                            <h3><a href="#">Churros</a></h3>
+                            
+                            <p>Frituras dulces, crujientes por fuera y esponjosas por dentro. Acompañados de chocolate y azúcar.</p>
+                            
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-lblue">$17</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="clearfix visible-md"></div>
+                <div class="col-md-6 col-sm-6">
+                    
+                    <div class="pricing-item">
+                        
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/pastelito.jpeg" alt=""></a>
+                        
+                        <div class="pricing-item-details">
+                            
+                            <h3><a href="#">Pastelitos de Frutas</a></h3>
+                            
+                            <p>Plato de pequeñas tarteas de frutas diversas de mermeladas y frutas</p>
+                            
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-green">$20</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    
+                    <div class="pricing-item">
+                        
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/Flan.jpg" alt=""></a>
+                        
+                        <div class="pricing-item-details">
+                            
+                            <h3><a href="#">Flan de Vainilla</a></h3>
+                            
+                            <p>Postre tipo gelatina de leche savor vainilla, con tazon de frutas de acompanante</p>
+                            
+                        </div>
+                        <!--price tag-->
+                        <span class="hot-tag br-red">$8</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container --> 
+    </div><!-- /#special-offser -->
+
+
+
+
+    <div id="reservation" class="light-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner">
+            <h2 class="section-title text-center">Reservacion</h2>
+            <p class="lead main text-center">Reserve tu mesa &amp; disfruta de las delicias con tu famila o anmigos</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="form form-table" method="post" name="">
+                        <div class="form-group">
+                            <h4>Rellene el formulario de reserva de mesa (todos los campos son obligatorios)</h4>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="first_name1">Nombre</label>
+                            <input class="form-control hint" type="text" id="first_name1" name="first_name" placeholder="Nombre" required="">
+                          </div>
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="last_name1">Apellidos</label>
+                            <input class="form-control hint" type="text" id="last_name1" name="last_name" placeholder="Apellidos" required="">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="email1">Correo Electronico</label>
+                            <input class="form-control hint" type="email" id="email1" name="email" placeholder="Correo@Electronico.com" required="">
+                          </div>
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="phone1">Telefono</label>
+                            <input class="form-control hint" type="text" id="phone1" name="phone" placeholder="Telefono" required="">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="reserv_date1">Fecha de Reservacion</label>
+                            <input class="form-control datepicker hasDatepicker hint" type="text" id="reserv_date1" name="Fecha de Reservacion" placeholder="Reservation date" required="">
+                          </div>
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="numb_guests1">Numero de Invitados</label>
+                            <input class="form-control hint" type="text" id="numb_guests1" name="numb_guests" placeholder="Numero de Invitados" required="">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="alt_reserv_date1">Tiempo desde las</label>
+                            <input class="form-control datepicker hasDatepicker hint" type="text" id="alt_reserv_date1" name="Tiempo desde las" placeholder="Time from" required="">
+                          </div>
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="time1">tiempo hasta las</label>
+                            <input class="form-control timepicker ui-timepicker-input hint" type="text" id="time1" name="time" placeholder="Tiempo hasta las" required="" autocomplete="off">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12">
+                            <button type="submit" class="btn btn-danger btn-lg">¡Reservar!</button>
+                          </div>
+                        </div>
+                      </form>
+                </div><!-- col-md-6 -->
+                <div class="col-md-5 col-md-offset-1">
+                    
+                    <h3><i class="fa fa-clock-o fa-fw"></i>Horas</h3>
+                    <p>Lunes a Viernes: 7:30 AM - 11:30 AM</p>
+                    <br>
+                    <p>Lunes a Viernes: 12:00 PM - 5:00 PM</p>
+                    <br>
+                    <p>Lunes a Viernes: 6:00 PM -  1:00 AM</p>
+                    <br>
+                    <p>Sabados &amp; Domingos: 8:00 AM - 9:00 AM</p>
+                    <br>
+                    <p>Domingos: 5:30 PM - 12:00 AM</p>
+                    <br>
+
+                    <h3><i class="fa fa-map-marker fa-fw"></i>Direccion</h3>
+                    <p>Ciudad Granja, Circunvalacion Poniente 163, Zapopan, Jalisco</p>
+
+                    <h3><i class="fa fa-mobile fa-fw"></i>Contactos</h3>
+                    <p>Email: <a href="mailto:contacto@ocsys.mx">contacto@ocsys.mx</a></p>
+                    <p>Telefono: (+52) 331 969 3193</p>
+
+                </div><!-- col-md-6 -->
+            </div>
+            <!-- /.services --> 
+        </div>
+        <!-- /.container -->
+        <section class="ss-style-bottom"></section>
+    </div><!-- #reservation -->
+
+
+
+    <div id="chefs" class="parallax pricing">
+        <div class="container inner">
+
+            <h2 class="section-title text-center">Nuestros Chefs</h2>
+            <p class="lead main text-center">¡NO HAY AMOR MÁS SINCERO QUE EL AMOR A LA COMIDA!</p>
+            
+            <div class="row text-center chefs">
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper">
+                            <img src="img/chefs/1.jpg">
+                        </div>
+                        <h3>Saransh Goila</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper">
+                            <img src="img/chefs/3.jpg">
+                        </div>
+                        <h3>Jane Doe</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <div class="icon-wrapper">
+                            <img src="img/chefs/2.jpg">
+                        </div>
+                        <h3>Anton Mosimann</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container --> 
+    </div><!-- /#chefs -->
+
+
+    <footer id="footer" class="dark-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; Copyright MeatKing 2014
+                    <br/>Theme By <a class="themeBy" href="http://www.Themewagon.com">ThemeWagon</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-bar">
+                        <a href="#" class="fa fa-instagram tooltipped" title=""></a>
+                        <a href="#" class="fa fa-youtube-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-facebook-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-pinterest-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-google-plus-square tooltipped" title=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
